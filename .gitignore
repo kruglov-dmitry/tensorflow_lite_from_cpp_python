@@ -1,0 +1,4 @@
+tf_load_sample
+*.o
+VENV
+*.pyc
