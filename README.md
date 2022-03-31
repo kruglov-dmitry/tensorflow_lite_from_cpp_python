@@ -48,7 +48,7 @@ make venv
 ```
 2. run python script
 ```bash
-cd python &&
+source VENV/bin/activate && cd python &&
 python tf_load_sample.py
 ```
 
