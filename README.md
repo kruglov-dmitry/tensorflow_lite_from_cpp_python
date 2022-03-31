@@ -64,5 +64,5 @@ onverter.optimizations = [tf.lite.Optimize.DEFAULT]
 
 converter.target_spec.supported_types = [tf.float32]
 quantized_tflite_model = converter.convert()
-open("FER_4class.tflite", "wb").write(quantized_tflite_model)
+open("FER.tflite", "wb").write(quantized_tflite_model)
 ```
